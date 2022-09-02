@@ -10,6 +10,22 @@ public class Main {
         if (age < 18)
         {
             System.out.println(" Подрасти ещё немного!");}
+        // задание 2
+        short schoolAge  = 50;
+        if (schoolAge >=7 && schoolAge<18){
+            System.out.println(" Пора идти в школу!");}
+
+        if (schoolAge>=18 && schoolAge<24)
+        {
+            System.out.println(" Можно поступать в университет!");}
+
+        if(schoolAge >= 24)
+
+        {
+            System.out.println(" Вот, теперь точно пора работать!");}
+        }
+
+
         }
 
 
@@ -20,5 +36,5 @@ public class Main {
 
 
 
-}
+
 
